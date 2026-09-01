@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "cant-tuna",
+    "slug": "cant-tuna",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "com.canttuna.app",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.canttuna.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-dev-client",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "cant-tuna needs the mic to hear your string. Audio stays on this phone.",
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}
